@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/drivhuset/static/style.css" type="text/css"/>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <h1>PLANTEHJELPEN</h1>
+  <h2>Klokken i drivhuset er nå: {{ time }}</h2>
+  <h2> {{ text }} </h2>
+  <div id="styring" class="container">
+    <div id="kontroll" class="row">
+      <a href="/drivhuset/auto_water/ON" class="knapp">Skru PÅ autovanning</a>
+      <a href="/drivhuset/auto_water/OFF" class="knapp">Skru AV autovanning</a>
+    </div>
+    <div id="knapper" class="row">
+      <a href="/drivhuset/sensor" class="knapp">Sjekk fuktighet i potten</a>
+      <a href="/drivhuset/water" class="knapp">Vann potten</a>
+      <a href="/drivhuset/last_watered" class="knapp">Sjekk når potten fikk vann sist</a>
+    </div>
+  </div>
+  <div>
+    <img src="/drivhuset/static/lastpic.jpg" />
+  </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "loglevel": "INFO",
+  "basepath": "/home/pi/Python",
+  "logfil": "drivhuset.log",
+  "OneDrive": false,
+  "test": false,
+  "mqtt": false,
+  "topic": "drivhuset",
+  "host": "steine.mine.nu",
+  "logform": "%(asctime)s %(message)s",
+  "dateString": "%Y/%m/%d %H:%M:%S",
+  "user": "Drivhuset",
+  "up": "agurk og tomat",
+  "kamera": "rtsp://admin:admin@192.168.86.51:8554/1.3gp"
+}
